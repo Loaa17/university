@@ -30,9 +30,12 @@ export default function Home() {
 
    <Subjects/>
 
-   <div>
-<button type='submit' className='bg-cyan-500 text-white w-1/4 py-2 text-xl hover:bg-cyan-600 rounded-md my-5'>
+   <div className='flex justify-center items-center'>
+<button type='submit' className='bg-cyan-500 text-white w-1/4 py-2 text-xl hover:bg-cyan-600 rounded-md my-5 mx-3'>
  حفظ
+</button>
+<button type='submit' className='bg-cyan-500 text-white w-1/4 py-2 text-xl hover:bg-cyan-600 rounded-md my-5'>
+ طباعة pdf
 </button>
 </div>
     
